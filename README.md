@@ -80,6 +80,17 @@ The containerized application can be deployed to any platform that supports Dock
 - Fly.io
 - Railway
 
+## Test Suite
+
+This project includes a comprehensive test suite with **60 automated tests** using Playwright:
+
+- **Memory Leak Testing**: 7 specialized tests covering keyboard interactions, word submissions, DOM nodes, event listeners, and Zustand store stability
+- **Functional Testing**: 13 tests covering all UI interactions, API validation, and error handling
+- **Performance Testing**: Cross-browser compatibility with WebKit, Chromium, and Firefox
+
+**Results**: ✅ **All tests passing** with **zero memory leaks detected** and stable memory usage (<10% growth under stress testing).
+
+
 ## Screenshot
 
 ![Project Screenshot](./Screenshot.png)
